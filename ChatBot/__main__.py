@@ -2,7 +2,6 @@ import importlib
 
 from pyrogram import idle
 
-import app
 from ChatBot.modules import ALL_MODULES
 
 async def boot():
