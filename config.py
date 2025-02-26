@@ -3,14 +3,14 @@ from os import getenv
 from dotenv import load_dotenv
 load_dotenv()
 
-API_ID = int(getenv("API_ID", None))
-API_HASH = getenv("API_HASH", None)
-BOT_TOKEN = getenv("BOT_TOKEN", None)
-OWNER_ID = int(getenv("OWNER_ID", None))
-MONGO_URL = getenv("MONGO_URL", None)
-AUTH_CHANNEL = int(getenv("AUTH_CHANNEL", None))
-FSUB = getenv("FSUB", False)
-OWNER_ID = int(getenv("OWNER_ID", None))
+API_ID = int(getenv("API_ID", 20910071))
+API_HASH = getenv("API_HASH", "c885cc0138ff4b6a1e6e9bc2ffd2a915")
+BOT_TOKEN = getenv("BOT_TOKEN", "c885cc0138ff4b6a1e6e9bc2ffd2a915")
+OWNER_ID = int(getenv("OWNER_ID", 7799390858))
+MONGO_URL = getenv("MONGO_URL", "mongodb+srv://KingOfHell:Highspeedorg@cluster0.ha2cc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+AUTH_CHANNEL = int(getenv("AUTH_CHANNEL", "https://t.me/SYNTAX_WORLD"))
+FSUB = getenv("FSUB", True)
+OWNER_ID = int(getenv("OWNER_ID", 7799390858))
 
 
 
